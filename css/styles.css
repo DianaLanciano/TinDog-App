@@ -1,0 +1,158 @@
+body{
+  font-family: "Indie Flower", sans-serif;
+  text-align: center;
+  color:black;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Acme";
+}
+p{
+  color:#8f8f8f;
+}
+
+/* Heading */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+    color:#fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 9%;
+}
+
+/* Sections */
+.white-section{
+  color:black;
+}
+.colored-section{
+  background-color: #ff4c68;
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/*Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img{
+  width: 40%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  z-index:1;
+  position: relative;
+
+}
+.features-h3-heading{
+  font-size: 1.5rem;
+}
+.features-box{
+  padding: 5%;
+}
+.features-icon{
+  color:#ffaaa5;
+  margin-bottom: 1rem;
+}
+.features-icon:hover{
+  color: #fbcffc;
+}
+
+/* Testimonial section */
+#testimonials{
+  color: #fff;
+  background-color: #ef8172;
+}
+.testimonial-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+  width: 20%;
+   border-radius: 50%;
+   margin: 20px;
+}
+
+/* press section */
+#press{
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px;
+}
+
+
+/* pricing secton  */
+#pricing{
+  padding: 100px;
+}
+.pricing-h3-heading{
+  font-size:1.5rem;
+}
+.pricing-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* <!-- Call to Action --> */
+#cta{
+  padding: 2% 10%;
+  color: #fff;
+}
+
+
+  /* <!-- Footer section--> */
+#footer{
+  padding: 3% 11%;
+}
+.footer-icons{
+  margin: 20px;
+}
+
+
+/* media querys */
+@media  (max-width: 1016px) {
+
+  #title{
+    text-align: center;
+    text-align: left;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
